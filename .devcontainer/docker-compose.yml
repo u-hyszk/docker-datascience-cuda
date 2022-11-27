@@ -1,0 +1,18 @@
+version: '3'
+services:
+  python:
+    deploy:
+      resources:
+        reservations:
+          devices:
+          - driver: nvidia
+            capabilities: [gpu]
+    restart: always
+    build: .
+    container_name: "docker-datascience"
+    working_dir: /home/workspace
+    tty: true
+    volumes:
+    - type: bind
+      source: ../workspace
+      target: /home/workspace

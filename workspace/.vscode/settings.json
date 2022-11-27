@@ -1,0 +1,62 @@
+{
+  // autosave setting
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1000,
+
+  // linting setting
+  "python.linting.pylintEnabled": false,
+  "python.linting.pep8Enabled": false,
+  "python.linting.flake8Enabled": true,
+  "python.linting.flake8Args": [
+      "--max-line-length=120",
+      "--max-complexity","20"
+  ],
+
+  // formatting setting
+  "python.formatting.provider": "autopep8",
+    "python.formatting.autopep8Args": [
+        "--aggressive",
+        "--aggressive",
+    ],
+
+  // unit test setting
+  "python.testing.unittestArgs": [
+    "-v",
+    "-s",
+    ".",
+    "-p",
+    "*test.py"
+  ],
+  "python.testing.pytestEnabled": false,
+  "python.testing.nosetestsEnabled": false,
+  "python.testing.unittestEnabled": true,
+
+  // delete space end of sentence
+  "files.trimTrailingWhitespace": true,
+
+  // add new line end of file
+  "files.insertFinalNewline": true,
+
+  // for pylance
+  "python.analysis.extraPaths": [
+    "/home/workspace"
+  ],
+
+  // additional
+  "[python]": {
+    "editor.tabSize": 4
+  },
+  "[csv]": {
+    "editor.wordWrap": "off"
+  },
+  "[json]": {
+    "editor.tabSize": 4
+  },
+  "[log]": {
+    "editor.wordWrap": "off"
+  },
+  "[tsv]": {
+    "editor.insertSpaces": false,
+    "editor.wordWrap": "off"
+  }
+}

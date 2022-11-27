@@ -1,0 +1,66 @@
+{
+  "name": "docker-datascience",
+  "dockerComposeFile": "docker-compose.yml",
+  "workspaceFolder": "/home/workspace",
+  "service": "python",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        // python
+        "ms-python.python",
+
+        // git
+        "eamodio.gitlens",
+
+        // debug
+        "formulahendry.code-runner",
+        "usernamehw.errorlens",
+
+        // path
+        "christian-kohler.path-intellisense",
+
+        // jupyter
+        "ms-toolsai.jupyter",
+        "ms-toolsai.jupyter-keymap",
+        "ms-toolsai.jupyter-renderers",
+
+        // theme
+        "github.github-vscode-theme",
+
+        // icons
+        "PKief.material-icon-theme",
+
+        // japanese
+        "ms-ceintl.vscode-language-pack-ja",
+
+        // indent & space
+        "shardulm94.trailing-spaces",
+        "mosapride.zenkaku",
+        "kevinrose.vsc-python-indent",
+        "oderwat.indent-rainbow",
+
+        // excel
+        "grapecity.gc-excelviewer",
+
+        // comment
+        "aaron-bond.better-comments",
+
+        // docstring
+        "njpwerner.autodocstring",
+
+        // markdown
+        "yzhang.markdown-all-in-one",
+        "davidanson.vscode-markdownlint",
+
+        // matching tag
+        "vincaslt.highlight-matching-tag",
+
+        // color
+        "naumovs.color-highlight",
+
+        // license
+        "ultram4rine.vscode-choosealicense"
+      ]
+    }
+  }
+}
