@@ -9,7 +9,7 @@ services:
             capabilities: [gpu]
     restart: always
     build: .
-    container_name: "docker-datascience"
+    container_name: "docker-datascience-cuda"
     working_dir: /home/workspace
     tty: true
     volumes:

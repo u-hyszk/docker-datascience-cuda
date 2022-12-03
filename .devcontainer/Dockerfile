@@ -63,7 +63,6 @@ alias ga='git add'\n\
 if [ -f /usr/share/powerline/bindings/bash/powerline.sh ]; then\n\
 source /usr/share/powerline/bindings/bash/powerline.sh\n\
 fi\n\
-figlet 'docker-'\n\
-figlet 'datascience'\n\
+figlet -w 300 'docker-datascience-cuda'\n\
 nvidia-smi \n\
 " >> /root/.bashrc

@@ -1,6 +1,6 @@
-# docker-datascience
+# docker-datascience-cuda
 
-"docker-datascience" is a simple/easy-to-use template for setting up a python data science environment using Docker & VScode.
+"docker-datascience-cuda" is a simple/easy-to-use template for setting up a python data science environment using Docker & VScode.
 
 ## Features
 
