@@ -47,7 +47,7 @@
 1. Clone this repository
 
 ```bash
-git clone https://github.com/hayashizaki-yu/docker-datascience.git
+git clone https://github.com/hayashizaki-yu/docker-datascience-cuda.git
 ```
 
 2. Open this folder with VScode
@@ -59,6 +59,10 @@ git clone https://github.com/hayashizaki-yu/docker-datascience.git
    * Click "><" icon in the lower left corner of VScode screen
    * Select "Reopen in container"
    * Initially it takes a while to start up
+
+4. restart VScode
+   * Initially, VScode extention for python will not be installed
+   * You can resolve this problem by restarting VScode
 
 ## Extra: install [pytorch](https://pytorch.org/) or [tensorflow](https://www.tensorflow.org/?hl=en)
 
@@ -77,5 +81,5 @@ pip install tensorflow-gpu
 ```
 
 ## License
-"docker-datascience" is under [MIT license](https://en.wikipedia.org/wiki/MIT_License).
+"docker-datascience-cuda" is under [MIT license](https://en.wikipedia.org/wiki/MIT_License).
 
